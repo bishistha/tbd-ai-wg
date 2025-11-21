@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>User Management System</h1>
+        
+        <!-- User Form -->
+        <div class="user-form">
+            <h2>Create User</h2>
+            <input type="text" id="firstName" placeholder="First Name" />
+            <input type="text" id="lastName" placeholder="Last Name" />
+            <button id="createUserBtn">Create User</button>
+        </div>
+
+        <!-- Users List -->
+        <div class="users-section">
+            <h2>All Users</h2>
+            <button id="loadUsersBtn">Load Users</button>
+            <div id="usersList"></div>
+        </div>
+    </div>
+
     <button id="chatButton" class="chat-button">Chat with AI</button>
     
     <div id="chatModal" class="modal">
